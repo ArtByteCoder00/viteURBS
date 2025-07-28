@@ -1,0 +1,40 @@
+.tela{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+}
+.carta {
+  text-align: center;
+  border: 2px solid #003C6E;
+  padding: 15px;
+  width: 250px;
+  height: 170px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.ttTexto h3,.ttTexto strong{
+    color:#003C6E ;
+}
+
+.ttTexto p{
+    color: #0056A6;
+}
+
+.ttTexto button {
+  border: 1px solid #003C6E;
+  color: #003C6E;
+  width: 80%;
+  margin-top: 10px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 250ms ease-in-out;
+}
+
+.ttTexto button:hover{
+  background-color: #003C6E;
+  color: white;
+}

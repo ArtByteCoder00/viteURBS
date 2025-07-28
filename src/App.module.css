@@ -1,0 +1,125 @@
+/* ---------- Estilos base: Mobile (até 499px) ---------- */
+
+.wrapLogin {
+    background: linear-gradient(176deg, rgba(0, 60, 110, 1) 0%, rgba(0, 86, 166, 1) 100%);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.wrapForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.cardlogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 30vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.label {
+    display: flex;
+    font-size: 13px;
+    color: #003C6E;
+}
+
+.botao {
+    border: 2px solid #003C6E;
+    color: #003C6E;
+    padding: 4px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #003C6E;
+    color: white;
+}
+
+.userCad {
+    color: #003C6E;
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.olho {
+    position: absolute;
+    width: 17px;
+    top: 20px;
+    right: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 3px 3px;
+    border: 2px solid #003C6E;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #005bb5;
+    box-shadow: 0 0 4px rgba(0, 91, 181, 0.5);
+}
+
+/* ---------- Estilo para telas a partir de 500px (tablet) ---------- */
+@media (min-width: 500px) {
+    .cardlogin {
+        width: 260px;
+        height: 30vh;
+        padding: 20px;
+    }
+
+    .wrapForm form {
+        width: 90%;
+        height: auto;
+    }
+    .olho {
+        top: 19px;
+        right: 6px;
+    }
+    .label{
+        margin-left: 5px;
+    }
+}
+
+/* ---------- Estilo para telas a partir de 1000px (desktop) ---------- */
+@media (min-width: 1000px) {
+    .wrapImg,
+    .degrade {
+        display: block;
+    }
+
+    .wrapForm {
+        width: 100%;
+    }
+    .olho {
+        top: 19px;
+        right: 6px;
+    }
+    .label{
+        margin-left: 5px;
+    }
+}
